@@ -20,7 +20,7 @@ top of a standard MERN foundation — not just CRUD.
 
 ## Live demo
 
-_Deploy it (see below) and drop your link here before you put this on your resume._
+(https://the-together-theater.vercel.app/)
 
 ## Architecture
 
@@ -92,10 +92,7 @@ are exposed to `Room.jsx` behind the same imperative interface (`currentTime`,
 `paused`, `play()`, `pause()`), so the sync logic above doesn't need to know
 or care which player is actually running underneath.
 
-## Running locally
 
-You need Node 18+ and either a local MongoDB instance or a free
-[MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register) cluster.
 
 **1. Backend**
 
@@ -115,8 +112,7 @@ npm install
 cp .env.example .env   # only needed if your backend isn't on localhost:5000
 npm run dev
 ```
-
-Open http://localhost:5173, create a room, then open a second (private/
+create a room, then open a second (private/
 incognito) tab and join with the room code to see the sync in action.
 
 **Note on video sources:** the host can load either a direct video file URL
